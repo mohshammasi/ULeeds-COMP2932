@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/CompilerHeaders.h
+Lexer.h
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/Lexer.h
+Parser.h
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/Parser.h
+SymbolTable.h
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/SymbolTable.h
+
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/Lexer.h
+iostream
+-
+fstream
+-
+vector
+-
+
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/Parser.cpp
+cstdlib
+-
+vector
+-
+dirent.h
+-
+sstream
+-
+CompilerHeaders.h
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/CompilerHeaders.h
+
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/Parser.h
+iostream
+-
+vector
+-
+CompilerHeaders.h
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/CompilerHeaders.h
+SymbolTable.h
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/SymbolTable.h
+
+/Users/MAS/Documents/Second Year Semester Two/COMP2932 - Compiler Design and Construction/CompilerCode/SymbolTable.h
+iostream
+-
+vector
+-
+
